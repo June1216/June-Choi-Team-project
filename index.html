@@ -1,52 +1,80 @@
 <!DOCTYPE html>
-<html>
-  <head>
-   <meta charset="utf-8">
-   <title>Team Project</title>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="ko">
 
-   <!-- fonts, css, js -->
-   <link type="text/css" rel="stylesheet" href="style.css">
- </head>
+<head>
+  <meta charset="utf-8">
+  <title>Team Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- fonts, css, js -->
+  <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
 <body>
   <header>
-    <h1>무적 LG트윈스 유광잠바</h1>
+    <div class="header-container">
+      <img class="logo" src="twins_logo.png" width="50px" alt="page logo image" />
+      <div class="search-container">
+        <span>2022 시즌 3위 기념 특별 이벤트</span>
+        <img src="search.png" width=" 20px" alt="search image" />
+      </div>
+      <div></div>
+    </div>
   </header>
   <section class="main wrapper">
-  <main>
-    <div class="main-container" >
-    <img src="image.png" width="200px"/>
-    <h2>2023년 우승 염원 20%할인!</h2>
+    <main>
+      <div class="main-container">
+        <img src="image.png" width="300px" alt="product image" />
+        <div class="detail-container">
+          <div class="rate-review-conatiner">
+            <span>⭐️⭐️⭐️⭐️⭐️⭐️ 10.0</span>
+            <span>(리뷰 1+)</span>
+          </div>
+          <h2>[티켓 MD 샵][LG트윈스] 유광 점퍼 (키즈)</h2>
+          <h3>115,000원</h3>
+          <div class="extra-information-container">
+            <table class="guideInfo">
+              <tr>
+                <td>택배</td>
+                <td>3,000원, 제주/강원 등 산지 4,500원</td>
+              </tr>
+              <tr>
+                <td>원산지</td>
+                <td>기타</td>
+              </tr>
+              <tr>
+                <td>혜택</td>
+                <td>무이자 할부 / 롯데 카드 할인</td>
+              </tr>
+            </table>
+          </div>
+          <div class="options-conatiner">
+            <p>옵션 선택</p>
+            <select class="size-select" name="size" id="size" /required>
+              <option value="">--사이즈 선택--</option>
+              <option value="americano">유아용(137,500원)</option>
+              <option value="latte">성인용(249,000원)</option>
+            </select>
+          </div>
+          <div class="price-container">
+            <div class="total-price flex-between">
+              <span>총 상품금액</span>
+              <span>0원</span>
+            </div>
+            <p class="discounted-price flex-between">
+              <span>할인적용가</span>
+              <span>0원</span>
+            </p>
+          </div>
+          <div class="button-group">
+            <button class="action-button">장바구니</button>
+            <button class="action-button buy-now">바로구매</button>
+          </div>
+        </div>
       </div>
-  </main>
-
+    </main>
     <div class="size">
   </section>
-  <footer>
-    <h3>사이즈별 가격</h3>
-  </footer>
-  <h4>
-    <nav id="size">
-      <ul>
-        <li>유아용 : 137,500원</li>
-        <li>성인용 : 249,000원</li>
-      </ul>
-  </h4>
-</nav>
-</div>
-
-  <article>
-    <lable for="size"></lable>
-    <select name="size" id="size" /required>
-      <option value="">--사이즈 선택--</option>
-      <option value="americano">유아용(137,500원)</option>
-      <option value="latte">성인용(249,000원)</option>
-    </select>
-  </article>
-  </article>
-
-  <div class="URL">
-    <a href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PT3LT22M081&utm_source=naver&utm_medium=naver_ep&utm_campaign=paid&utm_term=PT3LT22M081&n_media=27758&n_query=%EC%9C%A0%EA%B4%91%EC%9E%A0%EB%B0%94&n_rank=1&n_ad_group=grp-a001-02-000000030357305&n_ad=nad-a001-02-000000212065645&n_campaign_type=2&n_mall_id=lsnmall&n_mall_pid=PT3LT22M081&n_ad_group_type=2&NaPm=ct%3Dlbakrp2o%7Cci%3D0Aq0000IHCPxf6cyGKWG%7Ctr%3Dpla%7Chk%3D1b79e91b12aa634c05a1977893227122d10f3b09">&#60제품 보러가기:&#62</a>
-  </div>
 </body>
+
 </html>
